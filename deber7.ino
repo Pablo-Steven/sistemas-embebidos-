@@ -11,7 +11,7 @@
 int i=0;
 int dato1;
 int contraseña=4563;
-int c=0;
+int estado=0;
 
 String dato;
 String dato2;
@@ -27,12 +27,12 @@ void setup(){
 }
 
 void loop(){
-  if(c==0){
+  if(estado==0){
   if(Serial.available()>0){
     dato=Serial.readString();
     dato1=dato.toInt();
     if(dato1==contraseña){
-      c=1;
+      estado=1;
     
       Serial.println("Contraseña correcta Correcta");
       delay(3000);
@@ -44,12 +44,12 @@ void loop(){
       EEPROM.update(0,contraseña);
       Serial.println(String("La nueva contraseña es: ")+String(contraseña));
       Serial.println("Contraseña Actualizada");
-      c=0;      
+      estado=0;      
       
     }else{
       Serial.println("");
       Serial.println("Contaseña invalida");
-      c=0;
+      estado=0;
     }
   }
  }
