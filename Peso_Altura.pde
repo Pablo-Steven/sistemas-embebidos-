@@ -1,6 +1,21 @@
 /*
-Erazo Carlos - Laboratorio 4
-Regresión lineal
+UNIVERSIDAD TECNICA DEL NORTE
+FICA-CITEL
+SISTEMAS EMBEBIDOS
+
+NOMBRE:Ulcuango Pablo
+FECHA:20-01-2021
+DOCENTE: Ing. Paul Rosero
+TECNICO DOCENTE: Ing. Alejandra Pinto
+
+LABORATORIO 4:Realizar un interfaz donde se evidencie el proceso de
+aprendizaje de maquina realizado por el sistema
+embebido de la siguiente forma:
+-Imprimir los puntos del conjunto de entrenamiento correspondientes a la regresion lineal (pesoestatura)
+y la tendencia lineal o exponencial.
+-Al ingresar un nuevo valor por comunicacion serial al sistema electronico, realizar el pronostico (en
+depedencia de la interfaz si se desea una tendencia lineal o exponencial) y gracarlo en la interfaz
+con un color diferente a lo ya visto del conjunto de entrenamiento.
 */
 
 import processing.serial.*;
