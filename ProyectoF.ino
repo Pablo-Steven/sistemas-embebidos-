@@ -7,9 +7,7 @@ NOMBRE:Ulcuango Pablo
 FECHA:25-01-2021
 DOCENTE: Ing. Paul Rosero
 TECNICO DOCENTE: Ing. Alejandra Pinto
-
-DEBER 12:Codificar su propia versión de algoritmo k-NN o 
-bayesiano a su elección. Este código debe aplicarse en su examen final.
+********PROYECTO********
 */
 #include "datos.h"
 float prueba[5] = {0.6,0.1,0.7,0.4,3};
